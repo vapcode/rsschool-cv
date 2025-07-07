@@ -4,6 +4,12 @@ I' m a beginner developer.
 
 I'm interested in front-end development and QA.
 
+## Contacts:
+
+_Phone:_ +79697152750
+
+_E-mail:_ vapetrov.code@gmail.com
+
 ## My skills:
 
 - HTML&CSS
