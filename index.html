@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CV</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -23,75 +31,98 @@
 
       <main class="main">
         <section class="hello">
-          <p class="hello__hello">HELLO!</p>
-          <div class="hello__name"><p>I am</p>
-          <h1>Vasiliy Petrov</h1>
+          <div class="hello__name">
+            <img class="hello__img" src="image.png" alt="Avatar" width="250" />
+            <!-- <p class="hello__hello">Hello,</p>
+            <p>I am</p> -->
+            <h1>Vasiliy Petrov</h1>
+            <p>Frontend Developer</p>
           </div>
-          <p>Frontend Developer</p>
         </section>
 
+        <!-- <section class="hello">
+          <p class="hello__hello">HI!</p>
+          <div class="hello__name">
+            <img class="hello__img" src="image.png" alt="Avatar" width="250" />
+            <p>I am</p>
+            <h1>Vasiliy Petrov</h1>
+          </div>
+          <p>Frontend Developer</p>
+        </section> -->
+
         <section class="section about" id="about">
-        <h2 class="section__title">About me</h2>
-        <p class="section__text">
-          I' m a beginner developer. I'm interested in front-end development and
-          QA. I strive to apply my knowledge in practice as much as possible.</p> <p class="section__text">I
-          want to gain practical development skills and contribute to the
-          development of existing and creation of new projects.
-        </p>
-      </section>
+          <h2 class="section__title">About me</h2>
+          <p class="section__text">
+            I' m a beginner developer. I'm interested in front-end development
+            and QA. I strive to apply my knowledge in practice as much as
+            possible.
+          </p>
+          <p class="section__text">
+            I want to gain practical development skills and contribute to the
+            development of existing and creation of new projects.
+          </p>
+        </section>
 
-      <section class="section sckills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <p class="section__text">
-          - HTML&CSS - Java Script - Python - GIT, GitHub - VSCode
-        </p>
-      </section>
+        <section class="section sckills" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__text">
+            - HTML&CSS - Java Script - Python - GIT, GitHub - VSCode
+          </p>
+        </section>
 
-      <section class="section code" id="code">
-        <h2 class="section__title">Code</h2>
-        <p class="section__text">
-         <pre> <code>       function maskCardNumber(number) { 
-        return `**** **** ****${number.toString().slice(12, 16)}`; 
-        }
-        console.log(maskCardNumber(1234567891234567));</code>
-          </pre>
-        </p>
-      </section>
+        <section class="section code" id="code">
+          <h2 class="section__title">Code</h2>
+          <div>
+            <pre> <code>function maskCardNumber(number) { 
+    return `**** **** ****${number.toString().slice(12, 16)}`; 
+  }
+ console.log(maskCardNumber(1234567891234567));</code></pre>
+          </div>
+        </section>
 
-      <section class="section education" id="education">
-        <h2 class="section__title">Education</h2>
-        <ul class="education__list">
-          <li class="education__item"><h3 class="education__title">RS School</h3>, 2025
-        <p class="section__text">JS/FE Pre-School</p></li>
-          <li class="education__item"><h3 class="education__title">Saint-Petersburg University of Civil Aviation</h3>, 2016
-        <p class="section__text">Bachelor of Applied Mathematics</p></li>
-        </ul>
-      </section>
+        <section class="section education" id="education">
+          <h2 class="section__title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              <h3 class="education__title">RS School,</h3>
+              , 2025
+              <p class="section__text">JS/FE Pre-School</p>
+            </li>
+            <li class="education__item">
+              <h3 class="education__title">
+                Saint-Petersburg University of Civil Aviation
+              </h3>
+              , 2016
+              <p class="section__text">Bachelor of Applied Mathematics</p>
+            </li>
+          </ul>
+        </section>
 
-      <section class="section projects" id="projects">
-        <h2 class="section__title">Projects</h2>
-        <p class="section__text">
+        <section class="section projects" id="projects">
+          <h2 class="section__title">Projects</h2>
+
           <h3>CV</h3>
-        </p>
-      </section>
+        </section>
 
-      <section class="section languages" id="languages">
-        <h2 class="section__title">Languages</h2>
-        <ul class="languages__list">
-          <li>Russian - Native</li>
-          <li>English - Beginner</li>
-          <li>German - Beginner</li>
-        </ul>
-      </section>
+        <section class="section languages" id="languages">
+          <h2 class="section__title">Languages</h2>
+          <ul class="languages__list">
+            <li>Russian - Native</li>
+            <li>English - Beginner</li>
+            <li>German - Beginner</li>
+          </ul>
+        </section>
 
-      <section class="section contacts" id="contacts">
-        <h2 class="section__title">Contacts</h2>
-        <ul class="contacts__list">
-          <li class="contacts__item"><span>Phone:</span> +79697152750</li>
-          <li class="contacts__item"><span>E-mail:</span> vapetrov.code@gmail.com</li>
-          <li class="contacts__item"><span>Telegram:</span> vap_spb</li>
-        </ul>
-      </section>
+        <section class="section contacts" id="contacts">
+          <h2 class="section__title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item"><span>Phone:</span> +79697152750</li>
+            <li class="contacts__item">
+              <span>E-mail:</span> vapetrov.code@gmail.com
+            </li>
+            <li class="contacts__item"><span>Telegram:</span> vap_spb</li>
+          </ul>
+        </section>
       </main>
 
       <footer class="footer center">

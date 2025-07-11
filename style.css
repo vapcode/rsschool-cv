@@ -25,6 +25,10 @@ body {
   /* background-color: #e6e2d4; */
   position: relative;
   min-height: 100vh;
+  font-family: sans-serif;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .container {
@@ -46,23 +50,31 @@ body {
   left: 50%;
   transform: translateX(-50%);
   /* padding: 30px; */
-  z-index: 1;
+  /* z-index: -1; */
 }
+
 .nav__list {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  /* align-self: flex-start; */
   column-gap: 40px;
-  padding: 20px;
+  padding: 10px;
+  /* padding-bottom: 0; */
+  /* padding-top: 10px; */
   background-color: #e6e2d4;
   color: #9e9a8c;
+  z-index: -1;
 }
 
 .list__item {
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: 300;
   /* padding: 10px 10px; */
   /* color: #e6e2d4; */
   transition: all 0.3s;
+  text-transform: uppercase;
+  z-index: 1;
 }
 
 .list__item a {
@@ -78,23 +90,33 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: end;
-  font-weight: 700;
+  /* font-weight: 700; */
   /* column-gap: 80px; */
 }
 
 .hello__hello {
-  font-size: 44px;
+  font-size: 40px;
 }
 
 .hello__name {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  row-gap: 10px;
   font-size: 20px;
 }
 
 .hello__name h1 {
-  font-size: 32px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.hello__img {
+  border-radius: 50%;
+  border: 5px solid #e6e2d4;
+  background-color: #e6e2d4;
+  padding: 10px;
 }
 
 .hello__prof {
@@ -112,6 +134,7 @@ body {
 .section__title {
   font-size: 30px;
   margin-bottom: 20px;
+  font-weight: 500;
   /* color: #9e9a8c; */
 }
 
@@ -122,12 +145,31 @@ body {
   padding: 0;
 }
 
+.code {
+  /* padding-left: 0; */
+}
+
+.code div {
+  background-color: rgba(255, 255, 255, 0.294);
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  /* color: white; */
+  /* color: white; */
+  color: #9e9a8c;
+  font-weight: 600;
+}
+
+.code code {
+}
+
 h3 {
   display: inline;
 }
 
 .education__item {
   margin-bottom: 15px;
+  /* border-bottom: 2px solid black; */
 }
 
 .contacts__item span {
