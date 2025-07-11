@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="list__item"><a href="#about">About</a></li>
+            <li class="list__item"><a href="#skills">Skills</a></li>
+            <li class="list__item"><a href="#code">Code</a></li>
+            <li class="list__item"><a href="#education">Education</a></li>
+            <li class="list__item"><a href="#projects">Projects</a></li>
+            <li class="list__item"><a href="#languages">Languages</a></li>
+            <li class="list__item"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="me">
+          <img
+            class="me__avatar"
+            src="assets/img/avatar.jpeg"
+            alt="Avatar"
+            width="250"
+          />
+          <h1 class="me__header">Vasiliy Petrov</h1>
+          <p>Frontend Developer</p>
+        </section>
+
+        <section class="section about" id="about">
+          <h2 class="section__title">About me</h2>
+          <p class="section__text">
+            I' m a beginner developer. I'm interested in front-end development
+            and QA. I strive to apply my knowledge in practice as much as
+            possible.
+          </p>
+          <p class="section__text">
+            I want to gain practical development skills and contribute to the
+            development of existing and creation of new projects.
+          </p>
+        </section>
+
+        <section class="section sckills" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item skills__html">HTML</li>
+            <li class="skills__item skills__css">CSS</li>
+            <li class="skills__item skills__figma">Figma</li>
+            <li class="skills__item skills__js">JavaScript</li>
+            <li class="skills__item skills__github">GitHub</li>
+          </ul>
+        </section>
+
+        <section class="section code" id="code">
+          <h2 class="section__title">Code</h2>
+          <div class="code__text">
+            <pre> <code class="code__code">function multiply(number) {
+  return number * number;
+ }
+ console.log(muliply(12));</code></pre>
+          </div>
+        </section>
+
+        <section class="section education" id="education">
+          <h2 class="section__title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              <span class="education__title">RS School</span>, 2025
+              <p class="section__text">JS/FE Pre-School</p>
+            </li>
+            <li class="education__item">
+              <span class="education__title">
+                Saint-Petersburg University of Civil Aviation</span
+              >, 2016
+              <p class="section__text">Bachelor of Applied Mathematics</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section projects" id="projects">
+          <h2 class="section__title">Projects</h2>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a
+                class="projects__link"
+                href="https://vapcode.github.io/rsschool-cv/cv"
+                target="_blank"
+                >CV</a
+              >
+              <p class="section__text">My resume</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section languages" id="languages">
+          <h2 class="section__title">Languages</h2>
+          <ul class="languages__list">
+            <li><span>Russian</span> - Native</li>
+            <li><span>English</span> - Beginner</li>
+            <li><span>German</span> - Beginner</li>
+          </ul>
+        </section>
+
+        <section class="section contacts" id="contacts">
+          <h2 class="section__title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <span>Phone:</span>
+              <a href="tel:+79692222222">+79692222222</a>
+            </li>
+            <li class="contacts__item">
+              <span>E-mail:</span>
+              <a href="mailto:vapetrov.code@gmail.com"
+                >vapetrov.code@gmail.com</a
+              >
+            </li>
+            <li class="contacts__item">
+              <span>Telegram:</span>
+              <a href="https://t.me/vap_spb">@vap_spb</a>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a href="https://github.com/vapcode" target="_blank"
+          ><img src="assets/img/github-logo.svg" width="80" alt="github-logo"
+        /></a>
+        &copy;VAPETROV, 2025
+
+        <a href="https://rs.school/courses/javascript-ru" target="_blank"
+          ><img
+            src="assets/img/rs-school-logo.svg"
+            width="80"
+            alt="rsschool-logo"
+        /></a>
+      </footer>
+    </div>
+  </body>
+</html>
