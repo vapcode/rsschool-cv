@@ -105,7 +105,7 @@ body {
   padding-left: 30px;
   font-size: 24px;
   text-transform: uppercase;
-  font-weight: 500;s
+  font-weight: 500;
 }
 
 .skills__html {
@@ -188,7 +188,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   color: #32850e9b;
-  background-color: rgba(255, 255, 255, 0.294);  
+  background-color: rgba(255, 255, 255, 0.294);
 }
 
 .education__item {
@@ -200,7 +200,7 @@ body {
   font-weight: 600;
 }
 
-.projects__link{
+.projects__link {
   font-size: 22px;
   font-weight: 600;
 }
@@ -212,7 +212,6 @@ body {
 .languages__list span {
   font-weight: 600;
 }
-
 
 .contacts__list {
   padding-left: 20px;
