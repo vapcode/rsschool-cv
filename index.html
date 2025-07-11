@@ -30,25 +30,16 @@
       </header>
 
       <main class="main">
-        <section class="hello">
-          <div class="hello__name">
-            <img class="hello__img" src="image.png" alt="Avatar" width="250" />
-            <!-- <p class="hello__hello">Hello,</p>
-            <p>I am</p> -->
-            <h1>Vasiliy Petrov</h1>
-            <p>Frontend Developer</p>
-          </div>
-        </section>
-
-        <!-- <section class="hello">
-          <p class="hello__hello">HI!</p>
-          <div class="hello__name">
-            <img class="hello__img" src="image.png" alt="Avatar" width="250" />
-            <p>I am</p>
-            <h1>Vasiliy Petrov</h1>
-          </div>
+        <section class="me">
+          <img
+            class="me__avatar"
+            src="assets/img/avatar.jpg"
+            alt="Avatar"
+            width="250"
+          />
+          <h1 class="me__header">Vasiliy Petrov</h1>
           <p>Frontend Developer</p>
-        </section> -->
+        </section>
 
         <section class="section about" id="about">
           <h2 class="section__title">About me</h2>
@@ -65,18 +56,21 @@
 
         <section class="section sckills" id="skills">
           <h2 class="section__title">Skills</h2>
-          <p class="section__text">
-            - HTML&CSS - Java Script - Python - GIT, GitHub - VSCode
-          </p>
+          <ul class="skills__list">
+            <li class="skills__item skills__html">HTML</li>
+            <li class="skills__item skills__css">CSS</li>
+            <li class="skills__item skills__figma">Figma</li>
+            <li class="skills__item skills__js">JavaScript</li>
+            <li class="skills__item skills__github">GitHub</li>
+          </ul>
         </section>
 
         <section class="section code" id="code">
           <h2 class="section__title">Code</h2>
-          <div>
-            <pre> <code>function maskCardNumber(number) { 
-    return `**** **** ****${number.toString().slice(12, 16)}`; 
-  }
- console.log(maskCardNumber(1234567891234567));</code></pre>
+          <div class="code__text">
+            <pre> <code class="code__code">while (true) {
+     console.log('I code...')
+  }</code></pre>
           </div>
         </section>
 
@@ -84,15 +78,13 @@
           <h2 class="section__title">Education</h2>
           <ul class="education__list">
             <li class="education__item">
-              <h3 class="education__title">RS School,</h3>
-              , 2025
+              <span class="education__title">RS School</span>, 2025
               <p class="section__text">JS/FE Pre-School</p>
             </li>
             <li class="education__item">
-              <h3 class="education__title">
-                Saint-Petersburg University of Civil Aviation
-              </h3>
-              , 2016
+              <span class="education__title">
+                Saint-Petersburg University of Civil Aviation</span
+              >, 2016
               <p class="section__text">Bachelor of Applied Mathematics</p>
             </li>
           </ul>
@@ -100,39 +92,55 @@
 
         <section class="section projects" id="projects">
           <h2 class="section__title">Projects</h2>
-
-          <h3>CV</h3>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a class="projects__link" href="">CV</a>
+              <p class="section__text">My resume</p>
+            </li>
+          </ul>
         </section>
 
         <section class="section languages" id="languages">
           <h2 class="section__title">Languages</h2>
           <ul class="languages__list">
-            <li>Russian - Native</li>
-            <li>English - Beginner</li>
-            <li>German - Beginner</li>
+            <li><span>Russian</span> - Native</li>
+            <li><span>English</span> - Beginner</li>
+            <li><span>German</span> - Beginner</li>
           </ul>
         </section>
 
         <section class="section contacts" id="contacts">
           <h2 class="section__title">Contacts</h2>
           <ul class="contacts__list">
-            <li class="contacts__item"><span>Phone:</span> +79697152750</li>
             <li class="contacts__item">
-              <span>E-mail:</span> vapetrov.code@gmail.com
+              <span>Phone:</span>
+              <a href="tel:+79692222222">+79692222222</a>
             </li>
-            <li class="contacts__item"><span>Telegram:</span> vap_spb</li>
+            <li class="contacts__item">
+              <span>E-mail:</span>
+              <a href="mailto:vapetrov.code@gmail.com"
+                >vapetrov.code@gmail.com</a
+              >
+            </li>
+            <li class="contacts__item">
+              <span>Telegram:</span>
+              <a href="https://t.me/vap_spb">@vap_spb</a>
+            </li>
           </ul>
         </section>
       </main>
 
-      <footer class="footer center">
-        <a href="https://github.com/vapcode"
-          ><img src="GitHub-Logo.svg" width="80" alt=""
+      <footer class="footer">
+        <a href="https://github.com/vapcode" target="_blank"
+          ><img src="assets/img/github-logo.svg" width="80" alt="github-logo"
         /></a>
         &copy;VAPETROV, 2025
 
-        <a href="https://rs.school/courses/javascript-ru"
-          ><img src="rs-school-logo.svg" width="80" alt=""
+        <a href="https://rs.school/courses/javascript-ru" target="_blank"
+          ><img
+            src="assets/img/rs-school-logo.svg"
+            width="80"
+            alt="rsschool-logo"
         /></a>
       </footer>
     </div>
